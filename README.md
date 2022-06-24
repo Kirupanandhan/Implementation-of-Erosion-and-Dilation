@@ -34,7 +34,7 @@ from matplotlib import pyplot as plt
 # Create the Text using cv2.putText
 img1=np.zeros((100,300),dtype= 'uint8') 
 font=cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img1,'BHARATH',(5,70),font,1.4,(355),5,cv2.LINE_AA)
+cv2.putText(img1,'Kirupanandhan',(5,70),font,1.4,(355),5,cv2.LINE_AA)
 plt.imshow(img1,cmap='gray')
 plt.title("Original Image")
 plt.axis('off')
